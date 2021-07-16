@@ -1,0 +1,473 @@
+/******************** MAIN COMPONENTS *************************8*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h3 {
+  font-weight: 700;
+  color: #2d75bb;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-title {
+  margin-top: 150px;
+  height: 400px;
+}
+
+/********************************** NAVBAR ***************************/
+.navbar {
+  left: 5%;
+  max-width: 1200px;
+  width: 80%;
+  z-index: 1;
+}
+
+.navbar-nav {
+  margin-right: 40%;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2d75bb;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+  border-bottom: 2px solid;
+  border-color: white;
+  transition: 400ms ease-in;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  border-bottom: 2px solid #2d75bb;
+
+}
+
+
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-light .navbar-toggler {
+ border-style: none;
+}
+/********************** TITLE-SECTION1 ***************************/
+
+.title-text {
+  display: block;
+  width: 40%;
+  margin-top: 5rem;
+}
+
+.title-pic1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  animation-name: fadein;
+  animation-duration: 2500ms;
+}
+
+@-webkit-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.btn-learn {
+  margin: 0 20px 0 0;
+  border-radius: 50px;
+  width: 13rem;
+}
+
+#section1 {
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  left: 20%;
+}
+
+.t2,
+.t4 {
+  bottom: 20%;
+}
+
+.t3,
+.t5 {
+  bottom: 10%;
+}
+
+.t3 {
+  left: 40%;
+}
+
+.t4 {
+  left: 60%;
+}
+
+.t5 {
+  left: 88%;
+}
+
+/************************************** SECTION-2 ***************************/
+#section2 {
+  position: relative;
+}
+
+.sec2-text {
+  width: 31%;
+  margin-top: 50px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.sec2-img {
+  left: 0%;
+}
+
+.sec2-img-group {
+  position: absolute;
+  right: 0%;
+}
+
+.t2,
+.t4 {
+  bottom: 20%;
+}
+
+.t3,
+.t5 {
+  bottom: 10%;
+}
+
+.t3 {
+  left: 40%;
+}
+
+.t4 {
+  left: 60%;
+}
+
+.t5 {
+  left: 88%;
+}
+
+/****************************** SECTION-3 ************************************/
+#section3 {
+  position: relative;
+}
+
+.block {
+  text-align: center;
+  border-radius: 40px;
+  border: #2d75bb solid;
+  height: 285px;
+  width: 285px;
+  padding: 30px;
+  margin-top: 5%;
+}
+
+.blc-special {
+  background-color: #2d75bb;
+  color: #fff;
+}
+
+.text-special {
+  color: #fff;
+}
+
+.img-title.sec-3 {
+  margin-top: 2%;
+}
+
+.img-3 {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+}
+
+.img-4 {
+  position: absolute;
+  left: 25%;
+  bottom: 25%;
+}
+
+.img-5 {
+  position: absolute;
+  left: 45%;
+  bottom: 10%;
+}
+
+.img-6 {
+  position: absolute;
+  left: 65%;
+  bottom: 25%;
+}
+
+.img-7 {
+  position: absolute;
+  right: 0%;
+}
+
+/************************* SECTION-4 ****************************************/
+#section4 {
+  position: relative;
+}
+
+.flexbox.s4 {
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  border-radius: 35px;
+  border: #2d75bb solid;
+  border-width: 2px;
+  margin-top: 50px;
+}
+
+#section4 .img-title {
+  margin-top: 5%;
+}
+
+.date {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.stars {
+  margin-left: 50px;
+}
+
+/*************************************** SECTION-5 *********************************/
+.box {
+  border-radius: 40px;
+  border: #2d75bb solid;
+  width: 50%;
+  padding: 40px;
+  margin: 2% 1% 20%;
+}
+
+.sec5-img {
+  float: left;
+  margin-right: 20px;
+}
+
+/******************************************** SECTION-6 *****************************/
+#section6 {
+  position: relative;
+}
+
+.sec6-div {
+  border-radius: 50px;
+  border: #2d75bb solid;
+  padding: 50px;
+  text-align: center;
+  z-index: 1;
+}
+
+.mail {
+  margin: auto;
+  border-radius: 20px;
+  border: #2d75bb solid;
+  height: 60px;
+  width: 320px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  margin-top: 70px;
+}
+
+.sec6-img {
+  position: relative;
+  z-index: 1;
+}
+
+.flexbox1 {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0%;
+  color: #fff;
+}
+
+.border-mail {
+  padding-bottom: 25%;
+}
+
+.flex1-space {
+  margin: 0 50px;
+}
+
+.teacher-img {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+#email {
+  margin: auto;
+  border-radius: 20px;
+  border-color: #2d75bb;
+  height: 60px;
+  padding-left: 30px;
+}
+
+.btn-footer {
+  padding: 15px 30px;
+  border-radius: 40px;
+  width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+  /* SECTION-1 */
+.container {
+  margin-top: 0%;
+}
+
+  .navbar {
+    max-width: 640px;
+    left: 0%;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+  }
+
+  .navbar-brand {
+    width: 40%;
+    font-size: 12px;
+    margin-left: 5%;
+  }
+
+  .logo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .flexbox {
+    flex-direction: column;
+    max-width: 640px;
+  }
+
+  .flexbox1 {
+    max-width: 640px;
+    flex-direction: column;
+  }
+
+  .title-pic1 {
+    width: 90%;
+  }
+
+  .title-text {
+    padding-top: 300px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .img-title {
+    display: none;
+  }
+
+  .btn {
+    display: inline-block;
+    width: 45%;
+    margin: 0%;
+    font-size: 15px;
+  }
+
+  /* Section-2 */
+  #section2 {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .sec2-text {
+    width: 90%;
+  }
+
+  .sec2-img-group {
+    top: 0%;
+    width: 105%;
+  }
+
+  .sec2-mobile {
+    padding-top: 350px;
+  }
+
+  /* SECTION-3 and 4 */
+  #section3,
+  #section4 {
+    text-align: center;
+  }
+
+  /* SECTION-5 */
+  .box {
+    width: 100%;
+  }
+
+  .h1-sec5 {
+    text-align: center;
+  }
+
+  .box-img {
+    width: 60%;
+  }
+
+  .sec5-img {
+    width: 30%;
+  }
+
+  /* ! SECTION-6 */
+
+  .teacher-img {
+    display: none;
+  }
+
+  .btn-footer {
+    padding: 10px 10px;
+  }
+
+  .sec6-div {
+    font-size: 16px;
+    height: 60%;
+  }
+}
